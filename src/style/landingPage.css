@@ -1,0 +1,144 @@
+/* START NAVBAR */
+.navigasi {
+    /* background-color: hotpink; */
+    /* background-color: #EE6A5E; */
+    background-color: #3b3c5a;
+    /* color: #EE6A5E !important; */
+}
+
+.contact {
+    background-color: #EE6A5E !important;
+    color: #3b3c5a !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+.contact:hover {
+    background-color: #3b3c5a !important;
+    color: #EE6A5E !important;
+}
+
+.nav-link {
+    color: #EE6A5E !important;
+}
+/* END NAVBAR */
+
+/* START FUNCTION INTRO */
+.intro {
+    padding-top: 3rem;
+    background-color: #EE6A5E;
+}
+
+.left-title {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    text-shadow: 2px 2px gray;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.left-text {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.left-emoticon {
+    font-size: 18px;
+    font-weight: 600;
+    /* color: rgb(90, 90, 90); */
+    color: #3b3c5a;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.buttonManual {
+    text-align: left;
+}
+
+.buttonManual button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 2rem;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    font-weight: 600;
+    /* background-color: #3b3c5a; */
+    background-color: #faa65e;
+    color: #3b3c5a;
+}
+
+.buttonManual button:hover {
+    background-color: #3b3c5a;
+    color: #EE6A5E;
+    box-shadow: 5px black;
+}
+
+/* END FUNCTION INTRO */
+
+/* START FUNCTION PROJECT */
+.project {
+    background-color: #EE6A5E;
+}
+
+/* END FUNCTION PROJECT */
+
+/* START INTRO SECTION */
+.introSection {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* END SECTION */
+
+/* START FUNCTION FOOTER */
+.footer {
+    background-color: #EE6A5E;
+}
+
+.title-contact {
+    font-size: 19px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.text-contact {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.logo-contact span {
+    margin-right: 5px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.logo-contact span a:hover {
+    color: rgb(50, 132, 255);
+}
+
+.logo-contact span a {
+    color: black;
+}
+
+/* END FUNCTION FOOTER */
+
+/* START FUNCTION EXAMPLE CRUD */
+
+/* END FUNCTION EXAMPLE CRUD */
