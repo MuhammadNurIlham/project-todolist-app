@@ -1,16 +1,21 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import todo from '../components/assets/todo.jpg';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 
 function Intro() {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const handleNavigate = () => {
-        navigate('/create-todolist')
+    // const handleNavigate = () => {
+    //     navigate('/create-todolist')
+    // }
+
+    function handleAlert() {
+        alert("Masih dalam tahap Pengembangan😊😊\nAkan tersedia di update selanjutnya😉😉")
+        alert("Silahkan klik Create Task untuk mencoba")
+        alert("Good Luck🤗😉")
     }
-
 
     return (
         <div className='intro text-center'>
@@ -21,7 +26,7 @@ function Intro() {
                         <div className='left-text'>Collaborate, Manage Projects, and Reach New Productivity Peaks.<br></br>Explore real workflows that save you and your team time<br></br>Get it all done with INFOSAYA</div>
                         {/* <ClickButton /> */}
                         <div className='buttonManual' id='try'>
-                            <button className="btn create-task mt-3 mb-3 fs-4 px-5 py-2" onClick={handleNavigate}>
+                            <button className="btn create-task mt-3 mb-3 fs-4 px-5 py-2" onClick={handleAlert}>
                                 Get Started
                             </button>
                         </div>

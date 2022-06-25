@@ -1,14 +1,14 @@
 import React from "react";
 import { Navbar, Container, Nav, NavbarBrand, NavDropdown, Button, Dropdown } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 
 function NavigationBar() {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const handleNavigateHome = () => {
-        navigate('/')
-    }
+    // const handleNavigateHome = () => {
+    //     navigate('/')
+    // }
 
     const infoAlert = () => {
         alert("Masih dalam tahap Pengembangan😊😊\nAkan tersedia di update selanjutnya😉😉")
@@ -20,7 +20,7 @@ function NavigationBar() {
         <div className="navigasi">
             <Navbar collapseOnSelect expand="lg" className="navigasi">
                 <Container>
-                    <NavbarBrand onClick={handleNavigateHome} className='brand'>INFOSAYA</NavbarBrand>
+                    <NavbarBrand className='brand'>INFOSAYA</NavbarBrand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
